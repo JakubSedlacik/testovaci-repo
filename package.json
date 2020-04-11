@@ -1,0 +1,28 @@
+{
+  "name": "testovaci-repo",
+  "version": "1.0.0",
+  "description": "Popis není třeba.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "lint-check": "eslint src/js/**/*.js",
+    "lint-fix": "eslint --fix src/js/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JakubSedlacik/testovaci-repo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JakubSedlacik/testovaci-repo/issues"
+  },
+  "homepage": "https://github.com/JakubSedlacik/testovaci-repo#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}
